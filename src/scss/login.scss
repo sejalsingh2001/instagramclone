@@ -1,0 +1,115 @@
+body{
+    // background-color: #fcf7f7;;
+    background-color: #fafafa;
+}
+.container_login{
+width: 100%; 
+display: flex; 
+align-items: center; 
+max-width: 768px; 
+height: 100vh; 
+margin-right: auto;
+margin-left: auto;
+background-color: #fafafa;
+
+
+}
+.login_img{
+display: flex; 
+width: 60%; 
+height: 60%;
+}
+.login_form{
+display: flex; 
+flex-direction: column; 
+width: 60%; 
+
+}
+.insta_logo{
+    display: flex; 
+    justify-content: center; 
+    width: 100%; 
+  
+}
+.insta_logo1{
+    margin-top: 0.5rem; 
+    margin-bottom: 1rem; 
+    width: 50%; 
+  
+}
+.login_username{
+    padding-left: 1rem;
+padding-right: 1rem; 
+padding-top: 1.25rem;
+padding-bottom: 1.25rem; 
+margin-bottom: 0.5rem; 
+margin-right: 0.75rem; 
+font-size: 0.875rem;
+line-height: 1.25rem; 
+width: 100%; 
+height: 0.5rem; 
+border-radius: 0.25rem; 
+border-width: 1px; 
+
+}
+.login_password{
+padding-left: 1rem;
+padding-right: 1rem; 
+padding-top: 1.25rem;
+padding-bottom: 1.25rem; 
+margin-bottom: 0.5rem; 
+margin-right: 0.75rem; 
+font-size: 0.875rem;
+line-height: 1.25rem; 
+width: 100%; 
+height: 0.5rem; 
+border-radius: 0.25rem; 
+border-width: 1px;
+}
+.login_btn{
+    color: #ffffff; 
+font-weight: 700; 
+width: 100%; 
+height: 2rem; 
+border-radius: 0.25rem; 
+background-color: #375085;
+cursor: pointer;
+margin-left: 10px;
+}
+.login_acct{
+    display: flex; 
+padding: 1rem; 
+background-color: #ffffff; 
+flex-direction: column; 
+justify-content: center; 
+align-items: center; 
+width: 100%; 
+
+border-radius: 0.25rem; 
+border-width: 1px; 
+border-color: gray;
+width: 106%;
+margin-left: -11px;
+}
+.row{
+    display: flex; 
+padding: 3rem; 
+margin-bottom: 1rem; 
+background-color: #ffffff; 
+flex-direction: column; 
+align-items: center; 
+border-radius: 0.25rem; 
+border-width: 1px; 
+}
+.login_signup{
+    font-weight: 700; 
+    font-size: bold;
+    text-decoration: none;
+}
+.dont_signup{
+    font-size: 0.875rem;
+    line-height: 1.25rem; 
+}
+.form-error{
+    color: red;
+}
